@@ -35,23 +35,28 @@ In this tutorial, going off On-premises Active Directory Deployed in the Cloud (
 - Go into all the files propeties and allow certain permissions
 - Go back to Cilent-1 VM and create a write file txt. file
 - Go back to DC-1 VM and create a txt.file to read access for other users to see
+- Create a new organzational unit called SECURITY GROUPS
+- Create a new group in SECURITY GROUPS called ACCOUNTIANS
+- Allow the accounting file to shar persmission with the ACCOUNTIANS
+- Add the user in Cilent-1 to ACCOUNTIANS role
+- Log into the user with ACCOUNTIANS role
 
 
 <h2>Actions and Observations</h2>
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Creating-Resources-Groups-Storage-Accounts-and-Containers/assets/143027686/7d4b9bf6-474d-41e8-b189-c3e6d017f5f2"/>
+<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/be899399-e38a-4eb4-8e91-7fb71e688195"/>
 </p>
 <p>
-First we need to type Resource Groups in the Azure search bar then click the create resource group tab.
+First we need to log back into Cilent-1 and DC-1 from [https://github.com/Jacobvillagomez1/Configuring-On-premises-Active-Directory-within-Azure-VMs] using Remote Desktop Connection. Copy the Public IP and log into the VM indivudally.  
 </p>
 <br />
 
 <p>
-<img src="https://github.com/Jacobvillagomez1/Creating-Resources-Groups-Storage-Accounts-and-Containers/assets/143027686/45b556ff-eb52-43aa-a484-b3dc796f29a8"/>
+<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/969fd9a4-964a-40b3-bb7d-6540aa3c2aa5"/>
 </p>
 <p>
-Once we are in the Resource Group make sure its under your subscription, the Resource Group name can be named RG-01, and your region US West US 3.
+Open DC-1 VM and click the window icon on the bottom left, then click Windows Administrative Tools
 </p>
 <br />
 
