@@ -1,6 +1,6 @@
 # Network File Shares and Permissions
 <p align="center">
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/Jacobvillagomez1/Network-File-Shares-and-Permissions/assets/143027686/111b44ea-52f4-4884-b114-358ffc3f1b74"/>
 </p>
 
 <h1>Network File Shares and Permissions</h1>
